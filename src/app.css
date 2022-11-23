@@ -1,4 +1,11 @@
 
+* {
+
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: 0.3s ease-in;
+}
 
 .container {
   display: grid;
@@ -44,7 +51,7 @@ height: clamp(20vh, 50vh, 60vh);
   margin: 4px;
   padding: 16px;
   background-color: #ffffff;
-  outline: solid 2px rgb(110, 110, 176);
+  outline: solid 2px rgb(100, 159, 230);
   color: rgb(100, 98, 98);
   border: none;
   transition: all 0.3s ease-in;
@@ -54,7 +61,7 @@ height: clamp(20vh, 50vh, 60vh);
   border-radius: 24px;
   margin: 4px;
   padding: 16px;
-  background-color: #cdcdcd;
+  background-color: rgb(163, 192, 227);
   outline: solid 2px rgb(110, 110, 176);
   color: rgb(100, 98, 98);
   border: none;
